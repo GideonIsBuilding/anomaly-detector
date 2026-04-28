@@ -356,7 +356,7 @@ Every ban, unban, and baseline recalculation is written to the audit log:
 
 A beginner-friendly walkthrough of how this project was built is published at:
 
-> `https://your-blog-post-url-here`
+> `https://medium.com/@gideonisbuilding/i-built-a-tool-that-detects-ddos-attacks-in-real-time-heres-exactly-how-it-works-95860a781468`
 
 ---
 
