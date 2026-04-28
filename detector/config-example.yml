@@ -1,0 +1,23 @@
+server:
+  dashboard_port: 8080
+  log_path: /var/log/nginx/hng-access.log
+  audit_log_path: /var/log/detector/audit.log
+
+slack:
+  webhook_url: "https://hooks.slack.com/services/xxx/xxx/xxx"
+
+detection:
+  sliding_window_seconds: 60
+  baseline_window_minutes: 30
+  baseline_recalc_interval_seconds: 60
+  z_score_threshold: 3.0
+  rate_multiplier_threshold: 5.0
+  error_surge_multiplier: 3.0
+  min_requests_for_baseline: 10
+
+blocking:
+  ban_durations_minutes:
+    - 10
+    - 30
+    - 120
+    - -1
