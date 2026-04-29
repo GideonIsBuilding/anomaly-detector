@@ -8,8 +8,8 @@ A real-time HTTP traffic anomaly detection and DDoS mitigation engine built for 
 
 | Resource | URL |
 |---|---|
-| Metrics Dashboard | `https://dashboard-subdomain.domain.com` |
-| Nextcloud (IP only) | `http://SERVER_IP` |
+| Metrics Dashboard | `http://detector.gideonisbuilding.tech/` |
+| Nextcloud (IP only) | `http://http://100.49.26.66/` |
 | GitHub Repository | `https://github.com/GideonIsBuilding/anomaly-detector` |
 
 > **Note:** Both links are live during the grading window.
